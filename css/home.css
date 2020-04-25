@@ -1,5 +1,5 @@
 .title-header{
-    background-color: grey;
+    background-color: maroon;
     text-align: center;
     font-size: 60px;
     padding: 40px;
@@ -10,4 +10,10 @@
     max-width: 150px;
     max-height: 300px;
     margin-left: 10px;
+}
+
+.footer{
+    background-color: maroon;
+    text-align: center;
+    margin-bottom: 100px;
 }
