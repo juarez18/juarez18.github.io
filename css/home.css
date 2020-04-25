@@ -1,5 +1,18 @@
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
 .title-header{
     background-color: grey;
     text-align: center;
     font-size: 20px;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+
+.personal-img{
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
 }
