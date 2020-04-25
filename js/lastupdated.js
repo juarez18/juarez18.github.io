@@ -1,1 +1,4 @@
-document.getElementById("updateddate") = alert(document.lastModified);
+
+let date= document.lastModified;
+
+document.getElementById("updateddate") = date;
