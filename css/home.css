@@ -17,10 +17,7 @@
 }
 
 .list-title{
-    border-top-style: none;
-    border-right-style: none;
-    border-left-style: none;
-    border-bottom-style: 2px solid black;
+    border-bottom-style: solid;
 }
 
 main{
