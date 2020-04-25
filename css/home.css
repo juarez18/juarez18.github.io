@@ -31,3 +31,12 @@ main{
     border: 2px solid dodgerblue;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 550px) { 
+    /* beginning of media query */
+     body{
+         display:block;
+     }
+        
+    /* end of media query */ 
+    } 
