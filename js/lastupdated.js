@@ -1,1 +1,1 @@
-document.getElementById("updatedate") = alert(document.kastModified);
+document.getElementById("updateddate") = alert(document.lastModified);
