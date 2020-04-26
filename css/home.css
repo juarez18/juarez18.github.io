@@ -17,7 +17,7 @@
 
 .personal-img{
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
+    grid-row: 2 / 4;
     max-width: 150px;
     max-height: 300px;
     margin-left: auto;
