@@ -1,3 +1,8 @@
+.header-info{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .title-header{
     background-color: dodgerblue;
     text-align: center;
@@ -6,10 +11,13 @@
     color: white;
     border: 2px solid dodgerblue;
     border-radius: 5px;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
 }
 
 .personal-img{
-    float: right;
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
     max-width: 150px;
     max-height: 300px;
     margin-right: 50px;
