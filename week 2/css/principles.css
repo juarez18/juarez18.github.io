@@ -29,6 +29,7 @@ main{
 .visual-hierarchy h2{
     background-color: #FF7F50;
     color: white;
+    padding: 100%;
 }
 
 .visual-hierarchy h3{
