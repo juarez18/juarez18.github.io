@@ -1,3 +1,4 @@
+
 let daynames=[
     "Sunday",
     "Monday",
@@ -28,6 +29,6 @@ let monthName = months[d.getMonth()];
 let year = d.getFullYear();
 let fulldate = dayName + ', ' + monthName + ' ' + d.getDay() + ", " + year;
 
-document.getElementById(udate).textContent = fulldate;
+document.getElementById(udate).innerHTML = fulldate;
 
 
