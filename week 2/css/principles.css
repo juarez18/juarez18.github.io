@@ -97,7 +97,7 @@ main{
     margin: auto;
 }
 
-@media screen and (max-width: 1000px) { 
+@media screen and (max-width: 1500px) { 
     /* beginning of media query */
         .main{
             display: grid;
@@ -121,7 +121,7 @@ main{
         }
     } 
 
- @media screen and (max-width: 500px) { 
+ @media screen and (max-width: 750px) { 
         /* beginning of media query */
             .main{
                 display: block;
