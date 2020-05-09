@@ -20,3 +20,15 @@ main{
     grid-template-columns: 1fr , 1fr , 1fr;
     grid-gap: 5em;
 }
+
+.visual-hierarchy{
+    grid-column: 1 / 2;
+}
+
+.hicks-law{
+    grid-column: 2 / 3;
+}
+
+.fitts-law{
+    grid-column: 3 / 4;
+}
