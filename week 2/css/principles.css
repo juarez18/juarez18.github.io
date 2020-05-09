@@ -122,6 +122,7 @@ main{
         /* beginning of media query */
             .main{
                 display: block;
+            }
 
             .visual-hierarchy{
                 margin: auto;
