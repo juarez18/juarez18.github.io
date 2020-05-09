@@ -23,12 +23,57 @@ main{
 
 .visual-hierarchy{
     grid-column: 1 / 2;
+    border: 5px solid #696969;
+}
+
+.visual-hierarchy h2{
+    background-color: #FF7F50;
+    color: white;
+}
+
+.visual-hierarchy h3{
+    background-color: royalblue;
+    color: white;
+}
+
+.visual-img{
+    margin: auto;
 }
 
 .hicks-law{
     grid-column: 2 / 3;
+    border: 5px solid #696969;
+}
+
+.hicks-law h2{
+    background-color: #FF7F50;
+    color: white;
+}
+
+.hicks-law h3{
+    background-color: royalblue;
+    color: white;
+}
+
+.hicks-img{
+    margin: auto;
 }
 
 .fitts-law{
     grid-column: 3 / 4;
+    border: 5px solid #696969;
+}
+
+.fitts-law h2{
+    background-color: #FF7F50;
+    color: white;
+}
+
+.fitts-law h3{
+    background-color: royalblue;
+    color: white;
+}
+
+.fitt-img{
+    margin: auto;
 }
