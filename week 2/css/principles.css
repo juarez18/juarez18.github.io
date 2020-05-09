@@ -43,6 +43,7 @@ main{
 }
 
 .visual-img{
+    display: block;
     margin: auto;
 }
 
@@ -67,6 +68,7 @@ main{
 }
 
 .hicks-img{
+    display: block;
     margin: auto;
 }
 
@@ -91,6 +93,7 @@ main{
 }
 
 .fitt-img{
+    display: block;
     margin: auto;
 }
 
