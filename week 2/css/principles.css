@@ -30,7 +30,7 @@ main{
 .visual-hierarchy h2{
     background-color: #FF7F50;
     color: white;
-    padding: 100%;
+    padding: 15px;
 }
 
 .visual-hierarchy h3{
@@ -118,7 +118,7 @@ main{
         }
     } 
 
-    @media screen and (max-width: 500px) { 
+ @media screen and (max-width: 500px) { 
         /* beginning of media query */
             .main{
                 display: block;
