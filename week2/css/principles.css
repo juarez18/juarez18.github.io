@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto+Slab&display=swap');
 
+body{
+    background-color: lightcyan;
+}
+
+header h1{
+    background-color: lightsalmon;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
 
 img{
     width: 200px;
@@ -38,6 +50,8 @@ main{
 .visual-hierarchy h3{
     background-color: royalblue;
     color: white;
+    margin-top: 0px;
+    padding: 5px;
 }
 
 .visual-paragraph-1{
@@ -65,6 +79,8 @@ main{
 .hicks-law h3{
     background-color: royalblue;
     color: white;
+    margin-top: 0px;
+    padding: 5px;
 }
 
 .hicks-paragraph-1{
@@ -92,6 +108,8 @@ main{
 .fitts-law h3{
     background-color: royalblue;
     color: white;
+    margin-top: 0px;
+    padding: 5px;
 }
 
 .fitt-paragraph-1{
@@ -101,6 +119,15 @@ main{
 .fitt-img{
     display: block;
     margin: auto;
+}
+
+.footer{
+    background-color: lightsalmon;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1500px) { 
@@ -134,14 +161,14 @@ main{
             }
 
             .visual-hierarchy{
-                margin: auto;
+                margin: 15px;
             }
     
             .hicks-law{
-                margin: auto;
+                margin: 15px;
             }
     
             .fitts-law{
-                margin: auto;
+                margin: 15px;
             }
         } 
