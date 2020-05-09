@@ -24,6 +24,7 @@ main{
 .visual-hierarchy{
     grid-column: 1 / 2;
     border: 5px solid #696969;
+    background-color: oldlace;
     
 }
 
@@ -31,6 +32,7 @@ main{
     background-color: #FF7F50;
     color: white;
     padding: 15px;
+    margin: 0px;
 }
 
 .visual-hierarchy h3{
@@ -56,6 +58,8 @@ main{
 .hicks-law h2{
     background-color: #FF7F50;
     color: white;
+    padding: 15px;
+    margin: 0px;
 }
 
 .hicks-law h3{
@@ -81,6 +85,8 @@ main{
 .fitts-law h2{
     background-color: #FF7F50;
     color: white;
+    padding: 15px;
+    margin: 0px;
 }
 
 .fitts-law h3{
@@ -99,7 +105,7 @@ main{
 
 @media screen and (max-width: 1500px) { 
     /* beginning of media query */
-        .main{
+        main{
             display: grid;
             grid-template-columns: 1fr , 1fr;
         }
@@ -123,7 +129,7 @@ main{
 
  @media screen and (max-width: 750px) { 
         /* beginning of media query */
-            .main{
+            main{
                 display: block;
             }
 
