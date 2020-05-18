@@ -1,4 +1,4 @@
-.heading-title{
+header h1{
     text-align: center;
     border: 5px solid black;
     padding: 5px;
@@ -15,3 +15,18 @@
 main{
     background-color: ivory;
 }
+
+th td{
+    border-bottom: 3px solid black;
+    padding: 5px;
+
+}
+
+tr:hover{
+    background-color: yellow;
+}
+
+th{
+    text-align: center;
+}
+
