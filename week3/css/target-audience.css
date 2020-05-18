@@ -1,0 +1,17 @@
+.heading-title{
+    text-align: center;
+    border: 5px solid black;
+    padding: 5px;
+    background-color: grey;
+}
+
+.navigation{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: ivory;
+}
