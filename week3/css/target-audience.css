@@ -16,7 +16,7 @@ main{
     background-color: ivory;
 }
 
-th td{
+th, td{
     border-bottom: 3px solid black;
     padding: 5px;
 
