@@ -13,6 +13,9 @@ header h1{
     flex-wrap: wrap;
     background-color: navy;
     color: white;
+    padding: 10px;
+    margin: 0px;
+    color: white;
 }
 .navigation li:hover{
     background-color: powderblue;
@@ -21,6 +24,7 @@ header h1{
 main{
     background-color: ivory;
     max-width: 1000px;
+    margin: auto;
 }
 
 th, td{
