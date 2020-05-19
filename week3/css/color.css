@@ -3,6 +3,7 @@ header h1{
     border: 5px solid black;
     padding: 5px;
     background-color: grey;
+    margin: 0px;
 }
 
 .navigation{
