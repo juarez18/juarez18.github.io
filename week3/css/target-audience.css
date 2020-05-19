@@ -8,7 +8,7 @@ header h1{
 .navigation{
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -30,3 +30,33 @@ th{
     text-align: center;
 }
 
+.ta-header{
+    text-align: center;
+}
+
+.persona-heading{
+    text-align: center;
+}
+
+.persona-subheading-1{
+    text-align: center;
+}
+
+.persona-subheading-2{
+    text-align: center;
+}
+
+.scenario-heading{
+    text-align: center;
+}
+
+.scenario-list{
+    margin: auto;
+}
+
+footer{
+    background-color: grey;
+    border: 5px solid black;
+    text-align: center;
+    padding: 5px;
+}
