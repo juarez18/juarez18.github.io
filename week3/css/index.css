@@ -33,9 +33,13 @@ main{
 .site-purpose{
     grid-column: 1 / 2;
     grid-row: 2 / 4;
+    padding: 15px;
+    max-width: 200px;
+    text-align: center;
 }
 
 .domain-name{
+    text-align: center;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
@@ -44,8 +48,8 @@ main{
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     margin: auto;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 footer{
