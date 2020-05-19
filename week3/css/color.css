@@ -55,3 +55,33 @@ footer{
     text-align: center;
     padding: 5px;
 }
+
+.color-table{
+    margin: auto;
+}
+
+.background-ex{
+    background-color: whitesmoke;
+}
+
+.main-background{
+    background-color: gainsboro;
+}
+
+.heading-color{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.nav-ex{
+    background-color: lightslategrey;
+    color: white;
+}
+
+.footer-ex{
+    background-color: salmon;
+}
+
+.content{
+    margin: 10px;
+}
