@@ -6,3 +6,84 @@ font-family: 'Merriweather', serif;
 font-family: 'Merriweather Sans', sans-serif;
 */
 
+header h1{
+    text-align: center;
+    border: 5px solid black;
+    padding: 5px;
+    background-color: grey;
+}
+
+.navigation{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+}
+.navigation li:hover{
+    background-color: powderblue;
+}
+
+a:visited{
+    color: white;
+}
+
+main{
+    background-color: ivory;
+    max-width: 1000px;
+    margin: auto;
+}
+
+th, td{
+    border-bottom: 3px solid black;
+    padding: 5px;
+
+}
+
+tr:hover{
+    background-color: yellow;
+}
+
+th{
+    text-align: center;
+}
+
+.ta-header{
+    text-align: center;
+}
+
+footer{
+    background-color: grey;
+    border: 5px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.sample-header{
+    font-size: 40px;
+    font-family: 'Arvo' , serif;
+}
+
+.nav-sample{
+    font-size: 30px;
+    font-family: 'Arvo' , serif;
+}
+
+.heading-sample{
+    font-size: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.paragraph-sample{
+    font-size: 16px;
+    font-family: 'Merriweather', serif;   
+}
+
+.typo-table{
+    margin:auto;
+}

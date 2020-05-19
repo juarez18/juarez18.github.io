@@ -1,4 +1,4 @@
-.heading-title{
+header h1{
     text-align: center;
     border: 5px solid black;
     padding: 5px;
@@ -31,46 +31,22 @@ main{
     margin: auto;
 }
 
-.site-info{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5em;
+th, td{
+    border-bottom: 3px solid black;
     padding: 5px;
-    margin: 10px;
+
 }
 
-.site-name-header{
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-    text-align: center;
-    border: 3px solid gray;
+tr:hover{
+    background-color: yellow;
 }
 
-.site-purpose-header{
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+th{
     text-align: center;
 }
-.site-purpose{
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    padding: 15px;
-    max-width: 500px;
-    margin: auto;
-}
 
-.domain-name{
+.ta-header{
     text-align: center;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-}
-
-.logo-img{
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-    margin: auto;
-    max-width: 200px;
-    max-height: 200px;
 }
 
 footer{
