@@ -87,3 +87,11 @@ footer{
 .typo-table{
     margin:auto;
 }
+
+main h2{
+    text-align: center;
+}
+
+.content{
+    margin: 10px
+}
