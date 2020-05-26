@@ -19,12 +19,12 @@ nav{
     font-family: 'Arvo', serif;
 }
 
-footer header{
+footer, header{
     background-color: lightsalmon;
     font-family: 'Arvo' , 'serif';
 }
 
-h1 h2 h3 h4 h5{
+h1, h2 , h3 , h4 , h5{
     background-color: lightskyblue;
     color: white;
     font-family: 'Merriweather Sans' , serif;
@@ -37,6 +37,25 @@ p{
 img{
     max-width: 300px;
     max-height: 300px;
+}
+
+.navigation{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.navigation li:hover{
+    background-color: lightsalmon;
+}
+
+a:visited{
+    color: white;
 }
 
 /* End of Basic Design CSS */
