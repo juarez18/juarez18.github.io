@@ -11,5 +11,5 @@ document.getElementById(
     ).innerHTML = new Date().toLocaleDateString(en-US, options);
 
 } catch (e){
-    alert("Error with code or your browser does not support Locale");
+    alert("Error with code or your browser does not support Locale 1");
 }

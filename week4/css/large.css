@@ -141,3 +141,11 @@ header{
     margin-right: 10px;
     background-color: white;
 }
+
+@media screen and (max-width: 1500px){
+    @import "/week4/css/med.css";
+}
+
+@media screen and (max-width: 750px){
+    @import "/week4/css/small.css";
+}
