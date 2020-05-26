@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Merriweather&family=Merriweather+Sans&display=swap');
+
+/*font-family: 'Arvo', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
+*/
+
+body{
+    background-color:whitesmoke;
+}
+
+main{
+    background-color: gainsboro;
+}
+
+nav{
+    background-color: lightslategrey;
+    color:white;
+    font-family: 'Arvo', serif;
+}
+
+footer header{
+    background-color: lightsalmon;
+    font-family: 'Arvo' , 'serif';
+}
+
+h1 h2 h3 h4 h5{
+    background-color: lightskyblue;
+    color: white;
+    font-family: 'Merriweather Sans' , serif;
+}
+
+p{
+    font-family: 'Merriweather', 'serif';
+}
+
+/* End of Basic Design CSS */
+
