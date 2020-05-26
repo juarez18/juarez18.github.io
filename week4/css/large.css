@@ -15,7 +15,13 @@ main{
 }
 
 
-footer, header{
+header{
+    background-color: lightsalmon;
+    font-family: 'Arvo' , 'serif';
+}
+footer{
+    text-align: center;
+    padding: 5px;
     background-color: lightsalmon;
     font-family: 'Arvo' , 'serif';
 }
