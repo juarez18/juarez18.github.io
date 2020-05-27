@@ -1,70 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Merriweather&family=Merriweather+Sans&display=swap');
-@import "/week4/css/large.css" screen and (max-width: 5000px);
-@import "/week4/css/med.css" screen and (max-width: 1000px);
+
 
 /*font-family: 'Arvo', serif;
 font-family: 'Merriweather', serif;
 font-family: 'Merriweather Sans', sans-serif;
 */
 
-body{
-    background-color:whitesmoke;
+nav{
+    margin:0 auto;
+    max-width: 750px;
 }
 
-main{
-    background-color: gainsboro;
-    max-width: 1000px;
-    margin: auto;
+.navigation li:first-child{
+    display: block;
 }
 
-
-header{
-    background-color: lightsalmon;
-    font-family: 'Arvo' , 'serif';
-}
-footer{
-    text-align: center;
-    padding: 5px;
-    background-color: lightsalmon;
-    font-family: 'Arvo' , 'serif';
+.navigation li{
+    display: none;
 }
 
-h1, h2 , h3 , h4 , h5{
-    background-color: lightskyblue;
-    color: white;
-    font-family: 'Merriweather Sans' , serif;
+.navigation a{
+    display: block;
+    padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
 }
 
-p{
-    font-family: 'Merriweather', 'serif';
+.responsive li{
+    display: block;
 }
-
-img{
-    max-width: 300px;
-    max-height: 300px;
-}
-
-.navigation{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 0px;
-    list-style-type: none;
-    margin: 0px;
-    background-color: lightslategrey;
-    color:white;
-    font-family: 'Arvo', serif;
-    font-size: 30px;
-}
-
-.navigation li:hover{
-    background-color: lightsalmon;
-}
-
-a:visited{
-    color: white;
-}
-
