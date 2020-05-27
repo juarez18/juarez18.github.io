@@ -1,0 +1,3 @@
+@import "/week4/css/small.css" screen and (max-width: 550px);
+@import "/week4/css/med.css" screen and (max-width: 1000px);
+@import "/week4/css/large.css";
