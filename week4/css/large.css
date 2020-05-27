@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Merriweather&family=Merriweather+Sans&display=swap');
-@import "/week4/css/small.css" screen and (max-width: 550px);
-@import "/week4/css/med.css" screen and (max-width: 1000px);
+
 /*font-family: 'Arvo', serif;
 font-family: 'Merriweather', serif;
 font-family: 'Merriweather Sans', sans-serif;
@@ -146,3 +145,7 @@ header{
     margin-right: 10px;
     background-color: white;
 }
+
+
+@import "/week4/css/small.css" screen and (max-width: 550px);
+@import "/week4/css/med.css" screen and (max-width: 1000px);
