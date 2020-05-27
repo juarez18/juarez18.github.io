@@ -69,6 +69,8 @@ a:visited{
 
 /* End of Basic Design CSS */
 
+@media screen and (min-width: 1000px){
+
 header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -144,4 +146,6 @@ header{
     margin-left: 10px;
     margin-right: 10px;
     background-color: white;
+}
+
 }
