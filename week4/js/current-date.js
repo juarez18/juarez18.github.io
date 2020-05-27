@@ -1,5 +1,5 @@
 
-let options = {
+var options = {
     weekday: "long",
     day: "numeric",
     month: "long",
@@ -7,7 +7,7 @@ let options = {
 };
 
 var d = new Date();
-var n = d.toLocaleDateString(en-US, options);
+var n = d.toLocaleDateString('en-US', options);
 
 document.getElementById("currentdate").innerHTML = n;
  
