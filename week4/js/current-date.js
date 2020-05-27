@@ -7,7 +7,7 @@ var options = {
 };
 
 var d = new Date();
-var n = d.toLocaleDateString('en-US', options);
+var n = d.toLocaleDateString('en-GB', options);
 
 document.getElementById("currentdate").innerHTML = n;
  
