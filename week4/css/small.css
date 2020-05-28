@@ -14,6 +14,7 @@ nav{
 
 .navigation li{
     display: none;
+    text-align: center;
 }
 
 .navigation a{
@@ -25,4 +26,45 @@ nav{
 
 .responsive li{
     display: block;
+}
+
+.img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.web-heading{
+    font-size: 18px;
+}
+
+.mainheader{
+    font-size: 14px;
+}
+
+.content-1{
+    height: 50px;
+    text-align: right;
+}
+
+.content-2{
+    height: 50px;
+    text-align: right;
+}
+
+.content-3{
+    height: 50px;
+    text-align: right;
+}
+
+.content-4{
+    height: 50px;
+    text-align: right;
+}
+
+main{
+    max-width: 400px;
+}
+
+footer{
+    max-width: 400px;
 }
