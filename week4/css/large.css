@@ -81,6 +81,7 @@ a:visited{
 header{
     display: flex;
     flex-direction: row-reverse;
+    align-content: flex-start;
 }
 
 .heading-motto{
