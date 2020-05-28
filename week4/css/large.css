@@ -62,10 +62,6 @@ img{
     font-size: 30px;
 }
 
-.navigation li {
-    display: block; /* change state in small view */
-    flex: 1 1 auto;
-}
 
 .navigation a:hover{
     background-color: lightsalmon;

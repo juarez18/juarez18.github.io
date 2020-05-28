@@ -8,6 +8,10 @@ nav{
     display: block;
 }
 
+.navigation{
+    display: block;
+}
+
 .navigation li{
     display: none;
 }
