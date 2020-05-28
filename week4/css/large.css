@@ -80,6 +80,7 @@ a:visited{
 
 header{
     display: flex;
+    flex-direction: column;
 }
 .logo-img{
     max-width: 100px;
