@@ -80,14 +80,13 @@ a:visited{
 
 header{
     display: flex;
-    flex-direction: row-reverse;
-    align-content: flex-start;
     justify-content: center;
 }
 
 .heading-motto{
     display: flex;
     flex-direction: column;
+    order: 2;
 }
 
 .logo-img{
@@ -98,6 +97,7 @@ header{
     margin-bottom: auto;
     margin-right: 20px;
     padding: 10px;
+    order: 1;
 }
 
 .web-heading{
