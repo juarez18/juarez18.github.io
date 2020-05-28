@@ -82,6 +82,7 @@ header{
     display: flex;
     flex-direction: row-reverse;
     align-content: flex-start;
+    justify-content: center;
 }
 
 .heading-motto{
