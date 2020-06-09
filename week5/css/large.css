@@ -183,6 +183,7 @@ header{
 table {
     border-collapse: collapse;
     margin: auto;
+
   }
   
   table, th {
@@ -191,6 +192,10 @@ table {
 
   td{
       border-right: 1px solid black;
+  }
+
+  th, td{
+      padding: 5px;
   }
 
 table td{
@@ -211,6 +216,6 @@ table td{
 }
 
 .contact{
-    max-height: 100%;
+    height: 300px;
     text-align: center;
 }
