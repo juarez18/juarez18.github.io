@@ -211,11 +211,16 @@ table td{
     paddding: 5px;
 }
 
+
+
+.contact{
+    text-align: center;
+}
+
 .contact img{
     float: left;
 }
 
-.contact{
-    height: 300px;
-    text-align: center;
+.social{
+    float: right;
 }
