@@ -75,3 +75,7 @@ footer{
     top: 25px;
     left: 25px;
 }
+
+.article p{
+    padding: 5px;
+}
