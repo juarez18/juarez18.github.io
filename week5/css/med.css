@@ -31,3 +31,8 @@ footer{
     width: 750px;
     height: 350px;
 }
+
+.weather-summary{
+    top: 75px;
+    left: 75px;
+}

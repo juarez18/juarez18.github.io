@@ -67,6 +67,11 @@ footer{
     display: none;
 }
 
-.contaact{
+.contact{
     display: block;
+}
+
+.weather-summary{
+    top: 25px;
+    left: 25px;
 }
