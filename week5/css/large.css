@@ -149,7 +149,7 @@ header{
     padding: 5px;
 }
 
-weather-summary li{
+.weather-summary li{
     list-style-type: none;
     margin: 0;
     padding: 0;
