@@ -192,3 +192,15 @@ table {
 table td{
     text-align: center;
 }
+
+.article h3{
+    text-align: center;
+}
+
+.article img{
+    float: right;
+}
+
+.contact img{
+    float: left;
+}
