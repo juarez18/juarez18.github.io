@@ -189,6 +189,10 @@ table {
     border: 1px solid black;
   }
 
+  td{
+      border-right: 1px solid black;
+  }
+
 table td{
     text-align: center;
 }
