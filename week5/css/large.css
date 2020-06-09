@@ -114,6 +114,7 @@ header{
 
 .main-header{
     margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
     font-size: 30px;
 }
@@ -150,3 +151,27 @@ header{
 weather-summary li{
     list-style: none;
 }
+
+.the-5-day h3{
+    text-align: center;
+}
+
+.the-5-day table td img{
+    width: 50px;
+    height: 50px;
+}
+
+.the-5-day table th{
+    background-color: lightsalmon;
+    color: white;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+
