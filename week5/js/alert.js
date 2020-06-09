@@ -5,5 +5,5 @@ let today = new Date();
                     "Saturday"]
 
     if(daylist[day] == "Tuesday"){
-        document.getElementsByClassName("friday-event").style.display = 'block';
+        document.getElementById("friday-event").style.display = 'block';
     }

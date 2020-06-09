@@ -125,8 +125,11 @@ header{
     background-color: lightskyblue;
 }
 
-.friday-event{
+#friday-event{
     display: none;
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
 }
 
 .weather-sum-img{
