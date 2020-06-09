@@ -139,6 +139,7 @@ header{
     max-height: 500px;
 }
 
+
 .weather-summary{
     position: absolute;
     top: 100px;
@@ -149,11 +150,19 @@ header{
     padding: 5px;
 }
 
+.weather-summary h3{
+    padding: 5px;
+}
+
 .weather-summary li{
     list-style-type: none;
-    margin: 0;
+}
+
+.weather-summary ul{
+    margin:0;
     padding: 0;
 }
+
 
 .the-5-day h3{
     text-align: center;
