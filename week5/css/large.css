@@ -130,6 +130,7 @@ header{
 
 .weather-sum-img{
     position: relative;
+
 }
 
 .banner-img{
@@ -141,5 +142,11 @@ header{
     position: absolute;
     top: 100px;
     left: 100px;
-    text-align: center;;
+    text-align: center;
+    background-color: lightsalmon;
+    opacity: 0.6;
+}
+
+weather-summary li{
+    list-style: none;
 }
