@@ -215,12 +215,14 @@ table td{
 
 .contact{
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.contact img{
-    float: left;
+.contact-img{
+    grid-column: 1 / 2;
 }
 
 .social{
-    float: right;
+    grid-row: 2 / 3;
 }
