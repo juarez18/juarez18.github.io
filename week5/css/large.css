@@ -203,8 +203,14 @@ table td{
 
 .article img{
     float: right;
+    paddding: 5px;
 }
 
 .contact img{
     float: left;
+}
+
+.contact{
+    max-height: 100%;
+    text-align: center;
 }
