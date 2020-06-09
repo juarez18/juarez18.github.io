@@ -41,25 +41,6 @@ nav{
     font-size: 18px;
 }
 
-.content-1{
-    height: 50px;
-    text-align: left;
-}
-
-.content-2{
-    height: 50px;
-    text-align: left;
-}
-
-.content-3{
-    height: 50px;
-    text-align: left;
-}
-
-.content-4{
-    height: 50px;
-    text-align: left;
-}
 
 main{
     max-width: 550px;
@@ -67,4 +48,25 @@ main{
 
 footer{
     max-width: 550px;
+}
+
+.banner-img{
+    width: 550px;
+    height: 250px;
+}
+
+.the-5-day{
+    display: none;
+}
+
+.article{
+    display: block;
+}
+
+.contact-img{
+    display: none;
+}
+
+.contaact{
+    display: block;
 }
