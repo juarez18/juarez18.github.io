@@ -212,7 +212,7 @@ table td{
 
 .article img{
     float: right;
-    padding: 5px;
+    padding: 15px;
 }
 
 
@@ -231,6 +231,7 @@ table td{
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     margin: auto;
+    padding: 15px;
 }
 
 .social{
