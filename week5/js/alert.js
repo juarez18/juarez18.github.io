@@ -4,6 +4,6 @@ let today = new Date();
                     "Wednesday" , "Thursday" , "Friday" ,
                     "Saturday"]
 
-    if(daylist[day] == "Monday"){
+    if(daylist[day] == "Tuesday"){
         document.getElementsByClassName("friday-event").style.display = 'block';
     }
