@@ -55,6 +55,10 @@ footer{
     height: 250px;
 }
 
+.banner-img-figure{
+    width: 100%;
+}
+
 .the-5-day{
     display: none;
 }
