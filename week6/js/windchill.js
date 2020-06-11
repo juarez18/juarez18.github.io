@@ -3,4 +3,4 @@ var s = document.getElementById("windSpeed").value;
 
 var f = t + s;
 
-document.getElementById("windChill") = f;
+document.getElementById("windChill").innerHTML = f;
