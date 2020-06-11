@@ -144,6 +144,9 @@ header{
     margin: 0;
 }
 
+.banner-img-figure{
+    margin: 0;
+}
 
 .weather-summary{
     position: absolute;
