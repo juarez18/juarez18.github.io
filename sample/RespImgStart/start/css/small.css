@@ -59,6 +59,21 @@ main {
     min-height: 10rem;
 }
 
+main figure.myPhoto{
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+main figure.myPhoto img{
+    width: 100%;
+}
+
+main figure.myPhoto figcaption{
+    text-align: center;
+    font-size: .75rem;
+}
+
 
 /*----------- FOOTER --------------*/
 footer {
