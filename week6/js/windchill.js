@@ -7,4 +7,6 @@ var s = b.innerHTML.match(/\d+/g);
 
 var f = 35.74 + .6215 * t - 35.65 * Math.pow(s, 0.15) + .4275 * t * Math.pow(s , .16);
 
+Math.trunc(f);
+
 document.getElementById("windChill").innerHTML = f;
