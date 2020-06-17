@@ -50,3 +50,8 @@ footer{
     max-width: 550px;
 }
 
+.gallery-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
