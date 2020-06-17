@@ -194,7 +194,7 @@ img[data-src] {
     transition: filter 0.5s;
   }
 
-  main img:hover{
+  main figure:hover{
       box-shadow: 0 0 50px #333;
   }
 
