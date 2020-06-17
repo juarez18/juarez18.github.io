@@ -1,13 +1,13 @@
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 
-const imgOptions ={
+const imgOptions = {
     threshold: 0,
     rootMargin: "0px 0px 50px 0px"
 };
 
 const loadImages = (image) => {
-    image.setAttribbute('src', image.getAttribute('data-src'));
+    image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {image.removeAttribute('data-src')}
 };
 
