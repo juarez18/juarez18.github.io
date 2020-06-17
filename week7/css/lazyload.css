@@ -11,3 +11,8 @@ main{
     flex-direction: column;
     justify-content: center;
 }
+
+nav{
+    text-align: center;
+    font-size: 1em;
+}
