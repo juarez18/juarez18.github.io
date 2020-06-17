@@ -170,3 +170,20 @@ header{
     grid-row: 3 / 4;
     grid-column: 3 / 4;
 }
+
+figure{
+    margin: 0px;
+}
+
+img{
+    margin: auto;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+
+  img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
