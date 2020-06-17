@@ -17,6 +17,11 @@ nav{
     font-size: 1em;
 }
 
-picture{
-    margin: auto;
-}
+img[data-src] {
+    filter: blur(0.2em);
+  }
+
+  img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
