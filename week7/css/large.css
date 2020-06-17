@@ -161,7 +161,6 @@ header{
 }
 
 .img-7{
-    margin-top: 20px;
     grid-row: 1 / 2;
     grid-column: 3 / 4;
 }
@@ -179,6 +178,7 @@ header{
 figure{
     margin: 0px;
     border: 3px black solid;
+    width: 300px;
 }
 
 main img{
