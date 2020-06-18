@@ -54,4 +54,13 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.img-4{
+    margin-top: 0px;
+}
+
+main figure{
+    margin: 5px;
 }

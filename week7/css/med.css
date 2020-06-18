@@ -63,6 +63,7 @@ footer{
 .img-7{
     grid-row: 4 / 5;
     grid-column: 1 / 2;
+    margin-top: 0px;
 }
 
 .img-8{
