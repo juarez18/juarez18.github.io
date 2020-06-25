@@ -181,3 +181,9 @@ form label.top input:required:valid {
 input:invalid{
     background-color: red;
 }
+
+.thank-you{
+    padding: 60px;
+    margin: auto;
+
+}
