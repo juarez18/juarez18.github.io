@@ -138,7 +138,6 @@ form legend{
 form label.top, form div{
     display: block;
     padding: top 1rem;
-
     font-size: 18px;
 }
 
@@ -188,6 +187,6 @@ input:invalid{
 
 }
 
-.ranger{
+form label.top.ranger{
     padding: 0px
 }
