@@ -31,15 +31,18 @@
             <form method="GET" action="/week8/thanks.html">
                 <fieldset class="personal-info">
                     <legend>Personal Information:</legend>
-                    <label>*Full Name:<input type="text" name="name" required></label>
-                    <label>Email:<input type="email" name="email" placeholder="someone@email.com"></label>
-                    <label>*Phone Number:<input type="tel" name="phone" required></label>
-                    <label>*Zip Code:<input type="number" name="zipcode" required></label>
+                    <label class="top">*Full Name:<input type="text" name="name" required></label>
+                    <label class="top">Email:<input type="email" name="email" placeholder="someone@email.com"></label>
+                    <label class="top">*Phone Number:<input type="tel" name="phone" required></label>
+                    <label class="top">*Zip Code:<input type="number" name="zipcode" required></label>
                 </fieldset>
                 <fieldset class="storm-info">
                     <legend>Storm Information</legend>
-                    <label>Storm Date:<input type="date" name="storm-date"></label>
-                    <label>Storm Type:<input list="storm-list" name="storm-type"></label>
+                    
+                    <label class="top">Storm Date:<input type="date" name="storm-date"></label>
+                   
+                    <label class="top">Storm Type:<input list="storm-list" name="storm-type"></label>
+                    
                     <datalist id="storm-list">
                         <option value="Flash Flood"></option>
                         <option value="Hail"></option>
@@ -47,26 +50,27 @@
                         <option value="Thunderstorm"></option>
                         <option value="Tornado"></option>
                     </datalist>
-                    <label for="storm-severity">Storm Severity:</label>
-                    <input type="range" id="storm-severity" name="severity" min="1" max="10">
+
+                    <label for="storm-severity">Storm Severity:
+                    <input type="range" id="storm-severity" name="severity" min="1" max="10"></label>
+
                     <label>Storm region: <select id="region" name="storm-region">
                         <option value="inital" selected disabled>Select Region...</option>
                         <option value="preston">Preston</option>
                         <option value="soda-springs">Soda Springs</option>
                         <option value="fish-haven">Fish Haven</option>
                     </select></label>
-                    <p>Are You in Danger</p>
-                    <input type="radio" id="yes" name="yes-danger" value="yes">
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="maybe" name="maybe-danger" value="maybe">
-                    <label for="maybe">Maybe</label>
-                    <input type="radio" id="no" name="no-danger" value="no">
-                    <label for="no">No</label>
-                    <textarea name="comments" rows="5" cols="30">
+                    
+                    <div>Are you in Danger</div>
+                    <label class="sbs"><input type="radio" id="yes" name="yes-danger" value="yes">Yes</label>
+                    <label class="sbs"><input type="radio" id="maybe" name="maybe-danger" value="maybe">Maybe</label>
+                    <label class="sbs"><input type="radio" id="no" name="no-danger" value="no">No</label>
+                    
+                    <textarea  class="top"name="comments" rows="5" cols="30">
 
                     </textarea>
                 </fieldset>
-                <input type="submit" value="submit">
+                <input class="submitBtn" type="submit" value="submit">
             
             </form>
 
