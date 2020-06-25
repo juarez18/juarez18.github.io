@@ -29,13 +29,15 @@
         <main>
             
             <form method="GET" action="/week8/thanks.html">
-                <fieldset>
+                <fieldset class="personal-info">
+                    <legend>Personal Information:</legend>
                     <label>*Full Name:<input type="text" name="name" required></label>
                     <label>Email:<input type="email" name="email" placeholder="someone@email.com"></label>
                     <label>*Phone Number:<input type="tel" name="phone" required></label>
                     <label>*Zip Code:<input type="number" name="zipcode" required></label>
                 </fieldset>
-                <fieldset>
+                <fieldset class="storm-info">
+                    <legend>Storm Information</legend>
                     <label>Storm Date:<input type="date" name="storm-date"></label>
                     <label>Storm Type:<input list="storm-list" name="storm-type"></label>
                     <datalist id="storm-list">
