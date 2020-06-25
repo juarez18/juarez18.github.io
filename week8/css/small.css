@@ -50,3 +50,7 @@ footer{
     max-width: 550px;
 }
 
+
+form input.submitBtn{
+    margin: 0 0 2rem 2%;
+}
