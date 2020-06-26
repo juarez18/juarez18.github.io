@@ -1,4 +1,4 @@
-
+@import "/week8/js/medium-textarea.js";
 
 .navigation{
     font-size: 20px;
@@ -27,3 +27,4 @@ footer{
 .thank-you{
     padding: 40px;
 }
+
