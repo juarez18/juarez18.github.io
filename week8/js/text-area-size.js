@@ -5,7 +5,7 @@ if ( w >= targetMedWidth){
     document.getElementById("info-area").columns = 80;
 }
 
-else if(w >= targeMedWidth){
+else if(w >= targetSmallWidth){
 
     document.getElementById("info-area").columns = 40;
 }
