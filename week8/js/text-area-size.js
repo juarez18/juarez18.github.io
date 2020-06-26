@@ -1,7 +1,7 @@
 w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
 var targetMedWidth = 1150;
 var targgetSmallWidth = 750;
-if ( w >= targeMedWidth){     
+if ( w >= targetMedWidth){     
     document.getElementById("info-area").columns = 80;
 }
 
