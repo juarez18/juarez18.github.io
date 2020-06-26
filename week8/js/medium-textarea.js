@@ -1,1 +1,0 @@
-document.getElementById("info-area").columns = 80;
