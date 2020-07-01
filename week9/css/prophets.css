@@ -1,0 +1,40 @@
+header h1{
+    text-align: center;
+    border: 2px black solid;
+    padding: 5px;
+}
+
+main{
+    background-color: silver;
+}
+
+section{
+    background-color: aliceblue;
+    color: navy;
+    text-align: center;
+    margin: 10px;
+    max-width: 335px;
+}
+
+img{
+    width: 80%;
+    height: 65%;
+    margin: auto;
+    box-shadow: 2px 2px 5px black;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section:hover{
+    border: 3px yellow solid;
+}
+
+footer{
+    border: 3px black solid;
+    padding: 15px;
+    text-align:center;
+}

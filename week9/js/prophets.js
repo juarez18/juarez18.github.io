@@ -15,10 +15,10 @@ fetch(requestURL)
         let image = document.createElement("img");
 
         h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-        p1.textContent = prophets[i].birthdate;
-        p2.textContent = prophets[i].birthplace;
+        p1.textContent = "Date of Birth: " + prophets[i].birthdate;
+        p2.textContent = "Place of Birth: " + prophets[i].birthplace;
         image.setAttribute('src', prophets[i].imageurl);
-        image.setAttribute("alt" , prophets[i].name + ' ' + prophets[i].lastname + "-" + (prophets[i] + 1));
+        image.setAttribute("alt" , prophets[i].name + ' ' + prophets[i].lastname + "-" + (i + 1));
 
 
         card.appendChild(h2);
