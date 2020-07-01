@@ -1,0 +1,4 @@
+@import "/week9/css/large.css";
+@import "/week9/css/med.css" screen and (max-width: 1150px);
+@import "/week9/css/small.css" screen and (max-width: 750px);
+

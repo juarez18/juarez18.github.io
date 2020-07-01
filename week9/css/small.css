@@ -51,3 +51,10 @@ footer{
 }
 
 
+form input.submitBtn{
+    margin: 0 0 2rem 2rem;
+}
+
+.thank-you{
+    padding: 20px;
+}
