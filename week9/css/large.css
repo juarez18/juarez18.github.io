@@ -42,8 +42,8 @@ p{
 }
 
 img{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 .navigation{
@@ -120,4 +120,34 @@ header{
     text-align: center;
 }
 
+.town-info{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+section{
+    flex: 1;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 6px;
+    background-color: whitesmoke;
+}
+
+.home-heading{
+    margin: 0;
+    text-align: center;
+}
+
+.section , h2 , h3{
+    margin: 0;
+}
+
+section > h3{
+    font-size: 14px;
+}
+
+section:hover{
+    box-shadow: 5px 5px 5px yellow;
+}
 
