@@ -58,3 +58,12 @@ form input.submitBtn{
 .thank-you{
     padding: 20px;
 }
+
+.town-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.town-info > section{
+    display: block;
+}
