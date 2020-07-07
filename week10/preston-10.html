@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Preston Town Page</title> <!-- Title of the Page-->
+        <link rel="stylesheet" href="/week10/css/preston-styles.css"> <!-- CSS Refernece Page-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <aside>
+            <div id="friday-event">
+                <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion</p>
+            </div>
+        </aside>
+        <header>
+            <div class="heading-motto">
+            <h1 class="web-heading">Nice Weather or Not</h1>
+            <p class="website-motto">Weather its nice or not we keep you updated.</p>
+            </div>
+            <img class="logo-img" src="/week3/images/sunnylogo.png" alt="Nice Weather or not Logo">
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="/week9/index.html">Home</a></li>
+                <li class ="current-page"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/week8/stormcenter.html">Storm Center</a></li>
+                <li><a href="/week7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 class="main-header">Preston, Idaho</h2>
+            <div class="weather-sum-img">
+            <figure class="banner-img-figure">
+
+                <img class="banner-img" src="/week5/images/preston-img.jpg" alt="Small town supposedly preston Idaho">
+                
+            </figure>
+                <div class="weather-summary">
+                    <h3>Weather Summary</h3>
+                    <ul>
+                        <li>Currently: <span id="conditions"></span></li>
+                        <li>High: <span id="currentTemp"></span>&#176;F </li>
+                        <li>Wind Chill:<span id="windChill"></span></li>
+                        <li>Humidity: <span id="humidity"></span></li>
+                        <li>Wind Speed:<span id="windSpeed"></span> mph</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="the-5-day">
+                <h3>5 Day Forecast</h3>
+                <table>
+                    <tr>
+                        <th><span id="dayOfWeek1"></span></th>
+                        <th><span id="dayOfWeek2"></span></th>
+                        <th><span id="dayOfWeek3"></span></th>
+                        <th><span id="dayOfWeek4"></span></th>
+                        <th><span id="dayOfWeek5"></span></th>
+                    </tr>
+                    <tr>
+                        <td><span><img src="" alt="" id="day1img""></span></td>
+                        <td><span><img src="" alt="" id="day2img"></span></td>
+                        <td><span><img src="" alt="" id="day3img"></span></td>
+                        <td><span><img src="" alt="" id="day4img"></span></td>
+                        <td><span><img src="" alt="" id="day5img"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="day1Temp"></span> &#176;F</td>
+                        <td><span id="day2Temp"></span> &#176;F</td>
+                        <td><span id="day3Temp"></span> &#176;F</td>
+                        <td><span id="day4Temp"></span> &#176;F</td>
+                        <td><span id="day5Temp"></span> &#176;F</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="article">
+                <h3>Founders Day Fresco</h3>
+                <p>By Janica Juarez</p>
+                <p> <img src="/week6/images/tennis-at-park.jpg" alt="Tennis at the park">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit 
+                    pellentesque habitant morbi tristique senectus. Quis lectus nulla 
+                    at volutpat diam. Bibendum at varius vel pharetra vel turpis. 
+                    Turpis cursus in hac habitasse platea dictumst quisque. Etiam 
+                    tempor orci eu lobortis elementum nibh. Integer malesuada nunc 
+                    vel risus commodo. Elementum nisi quis eleifend quam. Eleifend donec 
+                    pretium vulputate sapien nec sagittis aliquam malesuada. Morbi quis 
+                    commodo odio aenean sed. Iaculis eu non diam phasellus. Interdum 
+                    velit laoreet id donec ultrices tincidunt. Est lorem ipsum dolor sit 
+                    amet consectetur adipiscing elit pellentesque. Sit amet cursus sit 
+                    amet dictum sit. Mi proin sed libero enim sed faucibus turpis in
+                     <a href="#">continue to full article.</a>
+                </p>
+               
+
+            </div>
+            <div class="contact">
+                <h3 class="contact-header">Contact Us</h3>
+                <img class="contact-img" src="/week6/images/realmap.jpg" alt="Map of Local Area">
+                <div class="social">
+                <p>Nice Weather or not</p>
+                <p>30 N 1st E Preston, ID 83263</p>
+                <p>(999)999-9999</p>
+                <p>niceweatherornot@notreal</p>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="/week6/images/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="/week6/images/insta.png" alt="Instagram"></a>
+                    <a href="https://www.youtube.com" target="_blank">
+                      <img src="/week6/images/youtube.png" alt="Youtube"></a>
+                  </div>
+            </div>
+        </main>
+        <footer>
+            <div class= footer>
+                <p class="footer-paragraph">&copy; Nice Weather or Not | Marcus Juarez | BYUI | <a href="/index.html">Classwork Home</a></p>
+                <p class="current">Todays date: <span id="currentdate"></span></p>
+            </div>
+        </footer>
+        <script src="/week10/js/weatherapi.js"></script>
+        <script src="/week6/js/windchill.js"></script>
+        <script src="/week6/js/alert.js"></script>
+        <script src="/week6/js/menu.js"></script>
+        <script src="/week6/js/current-date.js"></script> <!-- Java Script Refenence-->
+    </body>
+</html>
