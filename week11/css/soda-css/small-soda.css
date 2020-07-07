@@ -1,0 +1,85 @@
+
+nav{
+    margin:0 auto;
+    max-width: 750px;
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+.navigation{
+    display: block;
+    padding: 3px;
+}
+
+.navigation li{
+    display: none;
+}
+
+.navigation a{
+    display: block;
+    padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.responsive li{
+    display: block;
+}
+
+.img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.web-heading{
+    font-size: 18px;
+}
+
+.main-header{
+    font-size: 18px;
+}
+
+
+main{
+    max-width: 550px;
+}
+
+footer{
+    max-width: 550px;
+}
+
+.banner-img{
+    width: 550px;
+    height: 250px;
+}
+
+.banner-img-figure{
+    width: 100%;
+}
+
+.the-5-day{
+    display: none;
+}
+
+.article{
+    display: block;
+}
+
+.contact-img{
+    display: none;
+}
+
+.contact{
+    display: block;
+}
+
+.weather-summary{
+    top: 25px;
+    left: 25px;
+}
+
+.article p{
+    padding: 5px;
+}

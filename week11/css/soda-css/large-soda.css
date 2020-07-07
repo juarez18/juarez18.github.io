@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Merriweather&family=Merriweather+Sans&display=swap');
+
+
+
+/*font-family: 'Arvo', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
+*/
+
+body{
+    background-color:whitesmoke;
+}
+
+main{
+    background-color: gainsboro;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+header{
+    background-color: lightsalmon;
+    font-family: 'Arvo' , 'serif';
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    background-color: lightsalmon;
+    font-family: 'Arvo' , 'serif';
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1, h2 , h3 , h4 , h5{
+    background-color: lightskyblue;
+    color: white;
+    font-family: 'Merriweather Sans' , serif;
+}
+
+p{
+    font-family: 'Merriweather', 'serif';
+}
+
+img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.navigation{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3px;
+    margin: 0px;
+    list-style-type: none;
+    margin: 0px;
+    background-color: lightslategrey;
+    color:white;
+    font-family: 'Arvo', serif;
+    font-size: 30px;
+}
+
+
+.navigation a:hover{
+    background-color: lightsalmon;
+}
+
+a:visited{
+    color: white;
+}
+
+.navigation li:first-child{
+    display: none;
+}
+
+/* End of Basic Design CSS */
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.heading-motto{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.logo-img{
+    max-width: 100px;
+    max-height: 100%;
+    padding: 10px;
+    order: 1;
+}
+
+.web-heading{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.website-motto{
+    text-align: center;
+    margin: 0px;
+}
+
+.main-header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.current-page{
+    background-color: lightskyblue;
+}
+
+#friday-event{
+    display: none;
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+.weather-sum-img{
+    position: relative;
+
+}
+
+.banner-img{
+    max-width: 1000px;
+    max-height: 450px;
+    width: 1000px;
+    margin: 0;
+}
+
+.banner-img-figure{
+    margin: 0;
+}
+
+.weather-summary{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+    background-color: lightsalmon;
+    opacity: 0.75;
+    padding: 5px;
+}
+
+.weather-summary h3{
+    padding: 5px;
+}
+
+.weather-summary li{
+    list-style-type: none;
+}
+
+.weather-summary ul{
+    margin:0;
+    padding: 0;
+}
+
+
+.the-5-day h3{
+    text-align: center;
+}
+
+.the-5-day table td span{
+    max-width: 50px;
+    max-height: 50px;
+    margin: auto;
+}
+
+.the-5-day table th{
+    background-color: lightsalmon;
+    color: white;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+
+  }
+  
+  table, th {
+    border: 1px solid black;
+  }
+
+  td{
+      border-right: 1px solid black;
+  }
+
+  th, td{
+      padding: 5px;
+  }
+
+table td{
+    text-align: center;
+}
+
+.article h3{
+    text-align: center;
+}
+
+.article img{
+    float: right;
+    padding: 15px;
+}
+
+
+
+.contact{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-header{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+.contact-img{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: auto;
+    padding: 15px;
+}
+
+.social{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
