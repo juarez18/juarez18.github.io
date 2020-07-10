@@ -242,3 +242,20 @@ table td{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
+
+.events{
+    display: flex;
+}
+
+.events section{
+    flex: 1;
+    border: 3px black solid;
+    padding: 5px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+
+.events section:hover{
+    background-color: yellow;
+}

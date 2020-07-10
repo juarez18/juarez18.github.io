@@ -83,3 +83,7 @@ footer{
 .article p{
     padding: 5px;
 }
+
+.events{
+    display: block;
+}
