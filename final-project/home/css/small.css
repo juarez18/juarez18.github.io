@@ -27,3 +27,26 @@ nav{
 .responsive li{
     display: block;
 }
+
+.banner-images{
+    max-width: 96%;
+    height: 200px;
+}
+
+.banner-section{
+    position: static;
+}
+
+.book-now{
+    position: static;
+    width: 98%;
+    margin: 5px;
+}
+
+.content-1{
+    display: block;
+}
+
+.current-weather{
+    margin: 5px;
+}
