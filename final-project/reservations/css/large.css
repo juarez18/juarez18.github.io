@@ -95,7 +95,8 @@ form legend{
 }
 
 form label.top, form div{
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
     font-size: 18px;
 }
@@ -113,7 +114,8 @@ form label.top input,  form label.top select{
 }
 
 form label.sbs{
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: .4rem 0;
 
 }
