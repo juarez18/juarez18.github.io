@@ -27,9 +27,63 @@
         </ul>
     </nav>
     <main>
-        <div>
-            lots of content
-        </div>
+        <form method="GET" action="/final-project/reservations/confirmation.html">
+            <fieldset class="personal-info">
+                <legend>Personal Information:</legend>
+                <label class="top">Full Name:<input type="text" name="name" required></label>
+                <label class="top">*Email:<input type="email" name="email" placeholder="someone@email.com" required></label>
+                <label class="top">*Phone Number:<input type="tel" name="phone" required></label>
+                <label class="top">*Home State or Country:<input type="text" name="state" required></label>
+            </fieldset>
+            <fieldset class="rental-info">
+                <legend>Rental Information</legend>
+                
+                <label class="top">Date of Rental:<input type="date" name="rental-date"></label>
+               
+                <label class="top">Rental Type:<input list="rental-list" name="rental-type"></label>
+                
+                <datalist id="rental-list">
+                    <option value="Honda Metro"></option>
+                    <option value="Honda Dio"></option>
+                    <option value="Honda PCX150"></option>
+                    <option value="Honda Pioneer ATV"></option>
+                    <option value="Jeep Wrangler 4-door"></option>
+                    <option value="Jeep Wrangler 2-door"></option>
+                </datalist>
+
+                <label class="top" for="rental-period">Rental period (days):
+                    <input list="periods" name="rental-periods"></label>
+                    <datalist id="periods">
+                        <option value=".5" label=".5"></option>
+                        <option value="1" label="1"></option>
+                        <option value="2" label="2"></option>
+                        <option value="3" label="3"></option>
+                        <option value="4" label="4"></option>
+                        <option value="5" label="5"></option>
+                        <option value="6" label="6"></option>
+                        <option value="7" label="7"></option>
+                    </datalist>
+                <label class="top">Number of rentals <select id="number" name="rental-numbers">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select></label>
+                
+                <label class="top">Are you with a cruise line?<input list="yes-no-list" name="cruise"></label>
+                <datalist id="yes-no-list">
+                    <option value="yes" label="yes"></option>
+                    <option value="no" label="no"></option>
+                </datalist>
+
+                <label class="top">Additional information or concerns:
+                <textarea id="info-area" class="top" name="comments" rows="5" cols="40"></textarea></label>
+
+            </fieldset>
+            <input class="submitBtn" type="submit" value="submit">
+        
+        </form>
     </main>
     <footer>
         <p class="footer-paragraph">&copy; Scoots | Marcus Juarez | BYUI | <a
