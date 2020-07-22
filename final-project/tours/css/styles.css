@@ -1,4 +1,4 @@
-@import "/final-project/home/css/large.css";
-@import "/final-project/home/css/medium.css" screen and (max-width: 1150px);
-@import "/final-project/home/css/small.css" screen and (max-width: 750px);
+@import "/final-project/tours/css/large.css";
+@import "/final-project/tours/css/medium.css" screen and (max-width: 1150px);
+@import "/final-project/tours/css/small.css" screen and (max-width: 750px);
 

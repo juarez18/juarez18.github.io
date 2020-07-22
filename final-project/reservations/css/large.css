@@ -155,3 +155,19 @@ textarea{
     font-weight: bold;
     text-align: center;
 }
+
+.personal-info{
+    margin-top: 0;
+}
+
+.added-info{
+    border: 3px solid navy;
+    margin: 15px;
+    margin-top: 0;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.added-info h2{
+    margin-top: 0;
+}
