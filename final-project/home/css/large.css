@@ -116,6 +116,7 @@ a:visited{
     margin: 5px;
     padding: 10px;
     background-color: lightgray;
+    flex: 1;
 }
 
 .current-weather{
