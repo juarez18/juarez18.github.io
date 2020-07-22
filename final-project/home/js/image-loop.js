@@ -8,7 +8,7 @@ images[1] = "/final-project/home/images/banner-img-2.jpg"
 images[2] = "/final-project/home/images/banner-img-3.jpg"
 
 function changeImg(){
-    document.slide.src = images[i];
+    document.getElementById("slide").src = images[i];
 
     if(i < images.length - 1){
         i++;
