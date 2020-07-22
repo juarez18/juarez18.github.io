@@ -9,7 +9,7 @@ fetch(apiURL)
         document.getElementById('humidity').textContent = jsObject.main.humidity + "%";
     });
 
-const forecastapi = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=d33a8675f110e5b4841a398b0c90d2e5&units=imperial';
+const forecastapi = 'https://api.openweathermap.org/data/2.5/forecast?id=3530103&APPID=d33a8675f110e5b4841a398b0c90d2e5&units=imperial';
 
 fetch(forecastapi)
     .then((response) => response.json())

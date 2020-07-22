@@ -107,6 +107,7 @@ a:visited{
 
 .content-1{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -140,4 +141,43 @@ a:visited{
     margin-bottom: 0;
     padding: 10px;
     background-color: lightgray;
+    flex: 0 1 100%;
+}
+
+.the-5-day h3{
+    text-align: center;
+}
+
+.the-5-day table td span{
+    max-width: 50px;
+    max-height: 50px;
+    margin: auto;
+}
+
+.the-5-day table th{
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+
+  }
+  
+  table, th {
+    border: 1px solid black;
+  }
+
+  td{
+      border-right: 1px solid black;
+  }
+
+  th, td{
+      padding: 5px;
+  }
+
+table td{
+    text-align: center;
 }
