@@ -1,0 +1,61 @@
+@import "/quest/css/basic.css";
+
+section img{
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;;
+
+}
+
+
+.species{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.species section{
+    flex: 1;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 3px black solid;
+    max-width: 500px;
+    background-color: lightgray;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  table{
+      margin: auto;
+  }
+
+  main section div{
+      overflow-x: auto;
+  }
+
+  main section h2{
+      background-color: white;
+      margin: 0;
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+
+  main section p , a{
+      padding: 10px;
+  }

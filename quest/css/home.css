@@ -1,0 +1,3 @@
+@import "/quest/css/largeStyles.css";
+@import "/quest/css/smallStyles.css" screen and (max-width: 750px);
+
