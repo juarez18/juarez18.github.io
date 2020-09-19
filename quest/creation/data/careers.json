@@ -1,0 +1,67 @@
+{"careers":[
+    {
+        "career": "Bounty Hunter",
+        "skill1": "Athletics",
+        "skill2": "Brawl",
+        "skill3": "Perception",
+        "skill4": "Piloting(Planetay)",
+        "skill5": "Piloting(Space)",
+        "skill6": "Ranged(Heavy)",
+        "skill7": "Streetwise",
+        "skill8": "Vigilance",
+        "specializations":[
+            {
+                "name":"Assassin",
+                "bonusSkill1": "Melee",
+                "bonusSkill2": "Ranged(Heavy)",
+                "bonusSkill3": "Skulduggery",
+                "bonusSkill4": "Stealth",
+                "talentTree": "/quest/creation/pdfs/assassin.pdf"
+            },
+
+            {
+                "name":"Gadgeteer",
+                "bonusSkill1": "Brawl",
+                "bonusSkill2": "Coercion",
+                "bonusSkill3": "Mechanics",
+                "bonusSkill4": "Ranged(light)",
+                "talentTree": "/quest/creation/pdfs/gadeteer.pdf"
+            },
+            {
+                "name":"Survivalist",
+                "bonusSkill1": "Knowledge(Xenology)",
+                "bonusSkill2": "Perception",
+                "bonusSkill3": "Resilience",
+                "bonusSkill4": "Survival",
+                "talentTree": "/quest/creation/pdfs/survivalist.pdf"
+            },
+            {
+                "name":"Martial Artist",
+                "bonusSkill1": "Athletics",
+                "bonusSkill2": "Brawl",
+                "bonusSkill3": "Coordination",
+                "bonusSkill4": "Discipline",
+                "talentTree": "/quest/creation/pdfs/martialArtist.pdf"
+            },
+            {
+                "name":"Operator",
+                "bonusSkill1": "Astrogation",
+                "bonusSkill2": "Gunnery",
+                "bonusSkill3": "Piloting(planetary)",
+                "bonusSkill4": "Piloting(Space)",
+                "talentTree": "/quest/creation/pdfs/operator.pdf"
+            },
+            {
+                "name":"Skip Tracer",
+                "bonusSkill1": "Cool",
+                "bonusSkill2": "Knowledge(Underworld)",
+                "bonusSkill3": "Negotiation",
+                "bonusSkill4": "Skulduggery",
+                "talentTree": "/quest/creation/pdfs/skipTracer.pdf"
+            }
+        ]
+    }
+]
+
+
+}
